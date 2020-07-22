@@ -1,17 +1,17 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <chrono></chrono>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Chrono from './components/Chrono.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    'Chrono': Chrono
   }
 }
 </script>
